@@ -1,0 +1,114 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    /*height: 100%;*/
+    padding-top: 50px;
+    /*text-align: center;*/
+    background: #fff;
+}
+
+.about-section {
+    /*height: 100%;*/
+    /*padding-top: 150px;*/
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+}
+
+.services-section {
+    /*height: 100%;*/
+    padding-top: 10px;
+    /*text-align: center;*/
+    background: #fff;
+}
+
+.partners-section {
+    /*height: 100%;*/
+    /*margin-top: 10%;*/
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.team-section {
+    /*height: 100%;*/
+    padding: 10px;
+    background: #eee;
+    text-align: center;
+}
+
+.queries-section {
+    /*height: 100%;*/
+    padding: 10px;
+    background: #eee;
+    /*text-align: center;*/
+}
+
+.contact-section {
+    /*height: 100%;*/
+    /*padding-top: 150px;*/
+    text-align: center;
+    background: #fff;
+}
+
+.partner {
+    background: #032990;
+    border-radius: 50%;
+    width: 100%;
+    height: 150px;
+    cursor: pointer;
+}
+.partnerOverlap{
+    /*background: #fff;*/
+    border-radius: 50%;
+    width: 100%;
+    height:150px;
+    /*cursor: pointer;*/
+    display: none;
+    /*vertical-align: middle;*/
+}
+.partnerOverlap img{
+    width: 90%;
+}
+.partnerOverlapText {
+    display: none;
+}
+.navbar-brand>img{
+    height: 100%;
+  /*padding: 0px;*/
+  width: auto;
+}
+.navbar-brand {
+    padding: 0px;
+}

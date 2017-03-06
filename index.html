@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>White India</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <link href="css/index.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+       #map {
+        height: 100vh;
+        /*width: 100%;*/
+       }
+    </style>
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <header class="navbar navbar-default navbar-fixed-top header" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <img src="images/logo.png" alt="White India">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#partners">Partners</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#queries">Query</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </header>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xlg-12">
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img class="" src="images/background2.jpg" alt="First slide" width="100%">
+                                <div class="carousel-caption">
+                                    <h3>World on your finger tips</h3>
+                                    <p>Get everything into your hands. Get the best services with the leading technologies of the world</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img class="" src="images/background2.jpg" alt="Second slide" width="100%">
+                                <div class="carousel-caption">
+                                    <h3>World on your finger tips</h3>
+                                    <p>Get everything into your hands. Get the best services with the leading technologies of the world</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img class="" src="images/background3.jpg" alt="Third slide" width="100%">
+                                <div class="carousel-caption">
+                                    <h3>World on your finger tips</h3>
+                                    <p>Get everything into your hands. Get the best services with the leading technologies of the world</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control right" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <h2 class="innerHead">About Us</h2>
+                <h3 class="lineWithText"><span><i class="fa fa-paper-plane-o"></i></span></h3>
+                <div class="mainDiv">
+                <div class="circle leftTop">
+                    <div><i class="fa fa-edit"></i>
+                    <p>What We Do</p></div>
+                </div>
+                <div class="circle leftBottom">
+                    <div><i class="fa fa-edit"></i>
+                    <p>Who we are</p></div>
+                </div>
+                <div class="circle bottom">
+                    <div><i class="fa fa-edit"></i>
+                    <p>Our Moto</p></div>
+                </div>
+                <div class="circle rightBottom">
+                    <div><i class="fa fa-edit"></i>
+                    <p>Our Vision</p></div>
+                </div>
+                <div class="circle rightTop">
+                    <div><i class="fa fa-edit"></i>
+                    <p>Our Mission</p></div>
+                </div>
+                <div class="circle top">
+                    <div><i class="fa fa-edit"></i>
+                    <p>Our Story</p></div>
+                </div>
+                <div class="circle center">
+                    <img src="images/rupeeWhite.png" class="rupeeImg image">
+                    <img src="images/arrowS.png" class="arrowImg image">
+                </div>
+            </div>
+            <div class="rightPart">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="ourStoryDiv">
+                            <h3>Our Story</h3>
+                            <p>Content Regarding Our Story</p>
+                        </div>
+                        <div class="ourMissionDiv">
+                            <h3>Our Mission</h3>
+                            <p>Content Regarding Our Mission</p>
+                        </div>
+                        <div class="ourVissionDiv">
+                            <h3>Our Vision</h3>
+                            <p>Content Regarding Our Vision</p>
+                        </div>
+                        <div class="ourMotoDiv">
+                            <h3>Our Moto</h3>
+                            <p>Content Regarding Our Moto</p>
+                        </div>
+                        <div class="whoWeAreDiv">
+                            <h3>Who We Are</h3>
+                            <p>Content Regarding Our Story</p>
+                        </div>
+                        <div class="whatWeDoDiv">
+                            <h3>What We Do</h3>
+                            <p>Content Regarding Our Story</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <h2 class="innerHead text-center">Services</h2>
+                <h3 class="lineWithText"><span><i class="fa fa-globe"></i></span></h3>
+                <br><br>
+                <div class="col-md-10 col-md-offset-2 text-center">
+                    <ul class="nav nav-pills pillsActive">
+                        <li class="active"><a data-toggle="pill" href="#designAndMarkupDiv"><i class="fa fa-pencil"></i> <h4>Design & markup</h4></a></li>
+                        <li><a data-toggle="pill" href="#webDevelopmentDiv"><i class="fa fa-wordpress"></i> <h4>Web Develoment</h4></a></li>
+                        <li><a data-toggle="pill" href="#appsAndGameDevelopmentDiv"><i class="fa fa-gamepad"></i> <h4>Apps & Game Develoment</h4></a></li>
+                        <li><a data-toggle="pill" href="#bigDataDiv"><i class="fa fa-database"></i> <h4>Big Data</h4></a></li>
+                        <li><a data-toggle="pill" href="#digitalMarketingDiv"><i class="fa fa-share-square-o"></i> <h4>Digital Marketing</h4></a></li>
+                    </ul>
+                </div>
+
+                <div class="tab-content">
+                    <div id="designAndMarkupDiv" class="tab-pane fade in active">
+                        <div class="col-md-10 col-md-offset-1">
+                            <h3>Design & markup</h3>
+                            <h4>Grahics Design <i class="fa fa-pencil"></i></h4>
+                            <p>The visual impact of professional quality graphic design in every marketing resource is important to the sucess of any business or organisation.</p>
+                            <p>Your logos,brouchers,banners and advertisemets must be something that makes stand out among your competition. Our <b>GRAPHIC DESIGNERS</b> enables new graphic designs to your website and it leads to get your website at the of the websearch.</p>
+                        </div>
+                        <div class="col-md-10 col-md-offset-1">
+                            <h4>Logo Design <i class="fa fa-pencil"></i></h4>
+                            <p>Logo is a prominent thing to signify your organisation.</p>
+                            <p>Our <b>LOGO DESIGNERS</b> take time to know about your business to create a <b>LOGO</b> that perfectly represents your organisation.</p>
+                        </div>
+                        <div class="col-md-10 col-md-offset-1">
+                            <h4>Web Design <i class="fa fa-pencil"></i></h4>
+                            <p>Website is the face of your business and the services that your organisation offer.</p>
+                            <p>A well designed website is the necessity to ensure perfect delivery of our services.We will collect every piece of information about your organisation,your business,your values,your vision,your mission and will give you a well designed website.</p>
+                        </div>
+                        <div class="col-md-10 col-md-offset-1">
+                            <h4>Front End <i class="fa fa-pencil"></i></h4>
+                            <p>Our web developers are specialised in providing beautiful and responsive websites to our customers by using the best front-end techonologies that suits your requirement.</p>
+                        </div>
+                    </div>
+
+                    <div id="webDevelopmentDiv" class="tab-pane fade">
+                        <div class="col-md-10 col-md-offset-1">
+                            <h3>Web Develoment</h3>
+                            <h4>Open Source <i class="fa fa-pencil"></i></h4>
+                            <p>As new technologies are being born everyday we will provide the opensource web development to create all our application developments like shopping carts,ecommerce services,administration platforms and other services using opensource technologies,services and programs.</p>
+                        </div>
+                        <div class="col-md-10 col-md-offset-1">
+                            <h4>E-Commerce <i class="fa fa-pencil"></i></h4>
+                            <p>We provide the e-commerce website design to take your online business to the next level.</p>
+                            <p>From selling a product or subscription to taking payments for a service,our team can develop the custome-commerce website solution that is perfect to your business.</p>
+                            <p>We can sell your products on your own website,if it is e-commerce enabled.</p>
+                        </div>
+                        <div class="col-md-10 col-md-offset-1">
+                            <h4>Custom Development <i class="fa fa-pencil"></i></h4>
+                            <p>As the rapid changes in the technology advances to fulfil the world's growing technological needs,we are providing the latest trends in development community.</p>
+                            <p>We always work to provide our clients the best possible development services.</p>
+                        </div>
+                        <div class="col-md-10 col-md-offset-1">
+                            <h4>Frame Work <i class="fa fa-pencil"></i></h4>
+                            <p>Here are the services in our frame work will keep your applications with high quality,easy to maintain,interoperable with market standards and maintainability at low cost.</p>
+                        </div>
+                    </div>
+
+                    <div id="appsAndGameDevelopmentDiv" class="tab-pane fade">
+                        <div class="col-md-10 col-md-offset-1">
+                            <h3>Apps & Game Development</h3>
+                            <h4>Android Apps <i class="fa fa-pencil"></i></h4>
+                            <p>An increasing in the usage of android devices like mobiles,tabs etc.., We will provide android apps to our customers which may leads to run our application in any android device.</p>
+                        </div>
+                        <div class="col-md-10 col-md-offset-1">
+                            <h4>IOS Apps <i class="fa fa-pencil"></i></h4>
+                            <p>Here are the services provided by us can run on any Apple devices like iphones and ipads.</p>
+                        </div>
+                        <div class="col-md-10 col-md-offset-1">
+                            <h4>Facebook apps <i class="fa fa-pencil"></i></h4>
+                            <p>Inorder to enhance online business we are providing facebook apps to our clients.</p>
+                        </div>
+                    </div>
+
+                    <div id="bigDataDiv" class="tab-pane fade">
+                        <div class="col-md-10 col-md-offset-1">
+                            <h4>Big Data <i class="fa fa-pencil"></i></h4>
+                            <p>Effective usage of bif data results the new offerings in the marketing.</p>
+                        </div>
+                    </div>
+
+                    <div id="digitalMarketingDiv" class="tab-pane fade">
+                        <div class="col-md-10 col-md-offset-1">
+                            <h3>Digital Marketing</h3>
+                            <h4>SEO <i class="fa fa-pencil"></i></h4>
+                            <h6>It plays a key role in Digital Marketing.</h6>
+                            <p>We provide our customers SEO enabled websites which yields more traffic to your website and customers.It will makes your website as the best.</p>
+                        </div>
+                        <div class="col-md-10 col-md-offset-1">
+                            <h4>Social Media<i class="fa fa-pencil"></i></h4>
+                            <h6>Social media has been every where these days.</h6>
+                            <p>Establishing the social presence can certainly enhance the brand popularity and attract visitors to your business.</p>
+                            <p>For business to be successful these days creating a social media strategy is must.</p>
+                            <p>For that we will present you to your potential customers through the social media content.</p>
+                        </div>
+                        <div class="col-md-10 col-md-offset-1">
+                            <h4>PPC <i class="fa fa-pencil"></i></h4>
+                            <p>Pay per click is a model of internet marketing in which advertiser pay a fee each time one of the site visitor clicked.</p>
+                            <p>We offer PPC enabled websites to improve your business income.</p>
+                        </div>
+                        <div class="col-md-10 col-md-offset-1">
+                            <h4>Display Advertisements <i class="fa fa-pencil"></i></h4>
+                            <p>Advertising on websites contains different formats such as video,audio,flash,text,images etc.., which may leads to deliver general advertisements and brand messages to site visitors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- team section-->
+    <section id="team" class="team-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center"><h2 class="innerHead">Team</h2></div>
+                <div style="clear: both"></div>
+                <h3 class="lineWithText"><span><i class="fa fa-users"></i></span></h3>
+
+                <div class="col-md-2 col-sm-2 col-xs-3 col-sm-offset-1 col-md-offset-1 text-center">
+                    <!-- <div class="team"></div> -->
+                    <h3><b>Yugandar</b></h3>
+                    <h4>Founder</h4>
+                    <h6>Skills</h6>
+                </div>
+
+                <!-- <div style="clear: both"></div> -->
+
+                <div class="col-md-2 col-sm-2 col-xs-3">
+                    <!-- <div class="team"></div> -->
+                    <h3><b>Subramanyam</b></h3>
+                    <h4>Founder</h4>
+                    <h6>Skills</h6>
+                </div>
+                <!--<div style="clear: both"></div>-->
+                <div class="col-md-2 col-sm-2 col-xs-3">
+                    <!-- <div class="team"></div> -->
+                    <h3><b>Venkateswarlu</b></h3>
+                    <h4>Designation</h4>
+                    <h6>Skills</h6>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-3">
+                    <!-- <div class="team"></div> -->
+                    <h3><b>Shiva Surya</b></h3>
+                    <h4>Designation</h4>
+                    <h6>Skills</h6>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-3">
+                    <!-- <div class="team"></div> -->
+                    <h3><b>Ramana</b></h3>
+                    <h4>Founder</h4>
+                    <h6>Skills</h6>
+                </div>
+                <!--<div style="clear: both"></div>-->
+                <div class="col-md-2 col-md-offset-1 col-sm-offset-1 col-sm-2 col-xs-3">
+                    <!-- <div class="team"></div> -->
+                    <h3><b>Rajesh</b></h3>
+                    <h4>Designation</h4>
+                    <h6>Skills</h6>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-3">
+                    <!-- <div class="team"></div> -->
+                    <h3><b>Manikanta</b></h3>
+                    <h4>Designation</h4>
+                    <h6>Skills</h6>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-3">
+                    <!-- <div class="team"></div> -->
+                    <h3><b>JanakiRam</b></h3>
+                    <h4>Founder</h4>
+                    <h6>Skills</h6>
+                </div>
+                <!--<div style="clear: both"></div>-->
+                <div class="col-md-2 col-sm-2 col-xs-3">
+                    <!-- <div class="team"></div> -->
+                    <h3><b>Gowthami</b></h3>
+                    <h4>Designation</h4>
+                    <h6>Skills</h6>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-3">
+                    <!-- <div class="team"></div> -->
+                    <h3><b>Sandhya</b></h3>
+                    <h4>Designation</h4>
+                    <h6>Skills</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--partners section -->
+    <section id="partners" class="partners-section">
+        <div class="container">
+            <div class="row">
+                <h2 class="innerHead">Partners</h2>
+                <h3 class="lineWithText"><span><i class="fa fa-building"></i></span></h3>
+                <div class="col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2 col-xs-3">
+                    <div class="partner text-center"><div class="partnerOverlap"><img src="images/arrow.png"></div></div>
+                    <h4>Partner1</h4>
+                    <p class="partnerOverlapText">Hidden Text here</p>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-3">
+                    <div class="partner"><div class="partnerOverlap"><img src="images/arrow.png"></div></div>
+                    <h4>Partner2</h4>
+                    <p class="partnerOverlapText">Hidden Text here</p>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-3">
+                    <div class="partner"><div class="partnerOverlap"><img src="images/arrow.png"></div></div>
+                    <h4>Partner3</h4>
+                    <p class="partnerOverlapText">Hidden Text here</p>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-3">
+                    <div class="partner"><div class="partnerOverlap"><img src="images/arrow.png"></div></div>
+                    <h4>Partner4</h4>
+                    <p class="partnerOverlapText">Hidden Text here</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--queries section-->
+    <section id="queries" class="queries-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center"><h2 class="innerHead">Write To Us</h2></div>
+                <div style="clear: both"></div>
+                <h3 class="lineWithText"><span><i class="fa fa-envelope-o"></i></span></h3>
+                <div class="col-md-6 col-md-offset-3">
+                    <form method="post" action="mailto:whiteindia@gmail.com">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" class="input form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="askUs">Write To Us:</label>
+                        <textarea type="text" rows="5" name="email" id="askUs" class="input form-control"></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-primary form-control" value="Send Email"></form>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container-fluid">
+            <div class="row">
+                <h2 class="innerHead">Reach Us</h2>
+                <h3 class="lineWithText"><span><i class="fa fa-paper-plane-o"></i></span></h3>
+                <!-- <hr class="lineWithText"><h3><span class="textMiddle"><i class="fa fa-facebook"></i></span></h3> -->
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" >
+        <div class="container">
+            <div class="navbar-header">
+                <p class="navbar-brand"><i class="fa fa-copyright"></i> Copyright all rights reserved @ White India</p>
+            </div>
+             <div class="navbar-right icons">
+                <ul class="nav navbar-nav">
+                    <li><a target="_blank" href="http://www.facebook.com/whiteIndia"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/whiteIndia"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/company/whiteIndia"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a target="_blank" href="https://plus.google.com/whiteIndia"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <script type="text/javascript">
+        $(".carousel").carousel({
+            interval : 2000
+        });
+    </script>
+
+
+    <script>
+function myMap() {
+  var myCenter = new google.maps.LatLng(17.7,83.3);
+  // var mycenter2 = new google.maps.LatLng(16,80);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 5,maxZoom:5,minZoom:5};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter, animation: google.maps.Animation.BOUNCE});
+
+  var infowindow = new google.maps.InfoWindow({
+    content: "<h6><b>" + "White India Pvt Ltd" + "</b></h6><p>" + "Vizag" + "</p>"
+  });
+
+  google.maps.event.addListener(marker, 'click', function() {
+  infowindow.open(map,marker);
+  });
+
+  infowindow.open(map,marker);
+  marker.setMap(map);
+}
+</script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+</body>
+
+</html>

@@ -1,0 +1,476 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+/*.header a {*/
+    /*color: white !important;*/
+/*}*/
+#intro {
+    /*background-image: url("../images/tIndia1.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainDiv {
+    height: 100vh;
+    /*margin: 0 auto;*/
+    width:65%;
+}
+.circle {
+    /*background: green;*/
+    /*border:1px solid red;*/
+    border-radius:50%;
+    cursor: pointer;
+    height: 25%;
+    text-align: center;
+    width: 15%;
+}
+.circle div{
+    padding: 15%;
+    margin-top: 25%;
+    /*color:yellow;*/
+}
+.leftTop {
+
+
+    background: rgb(186,147,191);
+    /*left: 7.5%;*/
+    opacity: 0.4;
+    position: absolute;
+    top: 129%;
+}
+.leftBottom {
+    background: rgb(107,202,233);;
+    /*left: 27.5%;*/
+    opacity: 0.4;
+    position: absolute;
+    top: 161%;
+}
+.bottom {
+    background: rgb(174,217,117);;
+    left: 23.5%;
+    opacity: 0.4;
+    position: absolute;
+    top: 175%;
+}
+.rightBottom {
+    background: rgb(247,208,106);
+    left: 40.5%;
+    opacity: 0.4;
+    position: absolute;
+    top: 161%;
+}
+.rightTop {
+    background: rgb(77,181,182);;
+    left: 40.5%;
+    /*opacity: 0.4;*/
+    position: absolute;
+    top: 129%;
+}
+.top {
+    background: rgb(211,99,119);
+    left: 23.5%;
+    opacity: 0.4;
+    position: absolute;
+    top: 115%;
+}
+.center {
+    background: transparent;
+    left: 23.5%;
+    position: absolute;
+    top: 145%
+}
+.rightPart {
+    position: absolute;
+    left: 65%;
+    top: 145%;
+    height: 85vh;
+    background:#fff;
+    width: 33%;
+}
+.ourVissionDiv,.ourMotoDiv,.ourStoryDiv,.whatWeDoDiv,.whoWeAreDiv{
+    display: none;
+}
+.image {
+    position: relative;
+}
+.center .rupeeImg{
+    background: transparent;
+    /*height: 70%;*/
+    /*transform: rotate(10deg);*/
+    width:90%;
+    /*margin-top: 10%;*/
+}
+.center .arrowImg {
+    background: transparent;
+    /*position: fixed;*/
+    /*top: 25%;*/
+    width: 100%;
+    margin-top: -130%;
+    opacity: 0.4;
+    /*transform: rotate(90deg);*/
+
+}
+.servicesSubHeader {
+    /*background: rgb(239,156,18);*/
+    background: rgb(241,198,0);
+    border: 1px solid rgb(241,198,0);
+    /*border-radius: 10%;*/
+    /*height: 100%;*/
+    /*padding: 0.5%;*/
+    /*width: 100%;*/
+}
+.servicesContent {
+    background: rgb(226,226,226);
+    border: 1px solid rgb(226,226,226);
+    /*border-radius: 10%;*/
+    margin-top: 5%;
+}
+#footer {
+    /*background:yellow !important;*/
+    padding-top: 10px;
+    text-align: left;
+    background: #032990;
+    color: white;
+}
+.icons{
+    font-size: 18px;
+    /*margin-left: 10px;*/
+}
+.icons i {
+    color: white;
+    /*padding: 10px;*/
+}
+
+/*.image1 {
+    height: 25%;
+    width: 25%;
+}*/
+.header {
+    background: #032990;
+    border: 1px solid #032990 !important;
+}
+.lineWithText {
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid #032990;
+    line-height: 0.1em;
+    margin: 20px 25% 25px;
+}
+.lineWithText span  {
+    background: white;
+    padding: 10px;
+    border: 1px solid #032990;
+    border-radius: 50%;
+    /*margin-top: 20px;*/
+}
+.lineWithText span i {
+    color: #032990;
+}
+.textMiddle {
+    background: white;
+    padding: 10px;
+    border:1px solid grey;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.innerHead {
+    color: #032990;
+}
+.team {
+    background:#032990;
+    border-radius: 50%;
+    width: 100%;
+    height: 150px;
+}
+.service {
+    background: #032990;
+    border-radius: 50%;
+    padding: 15%;
+    color: white;
+    /*margin-bottom: 10px;*/
+    /*width: 10%;*/
+    /*width: 80%;*/
+    /*height: 100px;*/
+}.serviceSelected {
+    opacity: 0.4;
+    color: grey;
+}
+.serviceTitle {
+    margin-top: 25%;
+}
+.pillsActive .active a,.pillsActive .active a:hover{
+    background-color: transparent !important;
+    color: grey !important;
+}
+@media(max-width: 600px){
+    .leftTop {
+    top: 104%;
+}
+.leftBottom {
+    top: 136%;
+}
+.bottom {
+    top: 149%;
+}
+.rightBottom {
+    top: 136%;
+}
+.rightTop {
+    top: 104%;
+}
+.top {
+    top: 90%;
+}
+.center {
+    top: 120%
+}
+}
+@media(min-width:600px) and (max-width:800px){
+   .leftTop {
+    top: 114%;
+}
+.leftBottom {
+    top: 146%;
+}
+.bottom {
+    top: 159%;
+}
+.rightBottom {
+    top: 146%;
+}
+.rightTop {
+    top: 114%;
+}
+.top {
+    top: 100%;
+}
+.center {
+    top: 130%
+} 
+}
+@media(min-width:846px) and (max-width:890px) {
+.leftTop {
+    top: 134%;
+}
+.leftBottom {
+    top: 166%;
+}
+.bottom {
+    top: 179%;
+}
+.rightBottom {
+    top: 166%;
+}
+.rightTop {
+    top: 134%;
+}
+.top {
+    top: 120%;
+}
+.center {
+    top: 150%
+}
+
+}
+
+@media(min-width:890px) and (max-width:945px) {
+.leftTop {
+    top: 139%;
+}
+.leftBottom {
+    top: 171%;
+}
+.bottom {
+    top: 184%;
+}
+.rightBottom {
+    top: 171%;
+}
+.rightTop {
+    top: 139%;
+}
+.top {
+    top: 125%;
+}
+.center {
+    top: 155%
+}
+
+}
+
+@media(min-width:945px) and (max-width:1020px) {
+.leftTop {
+    top: 144%;
+}
+.leftBottom {
+    top: 176%;
+}
+.bottom {
+    top: 189%;
+}
+.rightBottom {
+    top: 176%;
+}
+.rightTop {
+    top: 144%;
+}
+.top {
+    top: 130%;
+}
+.center {
+    top: 160%
+}
+
+}
+
+@media(min-width:1020px) and (max-width:1070px) {
+.leftTop {
+    top: 149%;
+}
+.leftBottom {
+    top: 181%;
+}
+.bottom {
+    top: 194%;
+}
+.rightBottom {
+    top: 181%;
+}
+.rightTop {
+    top: 149%;
+}
+.top {
+    top: 135%;
+}
+.center {
+    top: 165%
+}
+
+}
+
+@media(min-width:1070px) and (max-width:1125px) {
+.leftTop {
+    top: 154%;
+}
+.leftBottom {
+    top: 186%;
+}
+.bottom {
+    top: 199%;
+}
+.rightBottom {
+    top: 186%;
+}
+.rightTop {
+    top: 154%;
+}
+.top {
+    top: 140%;
+}
+.center {
+    top: 170%
+}
+
+}
+
+@media(min-width:1125px) and (max-width:1400px) {
+.leftTop {
+    top: 159%;
+}
+.leftBottom {
+    top: 191%;
+}
+.bottom {
+    top: 204%;
+}
+.rightBottom {
+    top: 191%;
+}
+.rightTop {
+    top: 159%;
+}
+.top {
+    top: 145%;
+}
+.center {
+    top: 175%
+}
+
+}
+
+/*@media(min-width:1170px) and (max-width:1220px) {
+.leftTop {
+    top: 164%;
+}
+.leftBottom {
+    top: 196%;
+}
+.bottom {
+    top: 209%;
+}
+.rightBottom {
+    top: 196%;
+}
+.rightTop {
+    top: 164%;
+}
+.top {
+    top: 150%;
+}
+.center {
+    top: 180%
+}
+
+}
+
+@media(min-width:1220px) and (max-width:1280px) {
+.leftTop {
+    top: 169%;
+}
+.leftBottom {
+    top: 201%;
+}
+.bottom {
+    top: 214%;
+}
+.rightBottom {
+    top: 201%;
+}
+.rightTop {
+    top: 169%;
+}
+.top {
+    top: 155%;
+}
+.center {
+    top: 185%
+}
+
+}
+
+@media(min-width:1280px) and (max-width:1327px) {
+.leftTop {
+    top: 174%;
+}
+.leftBottom {
+    top: 206%;
+}
+.bottom {
+    top: 219%;
+}
+.rightBottom {
+    top: 206%;
+}
+.rightTop {
+    top: 174%;
+}
+.top {
+    top: 160%;
+}
+.center {
+    top: 190%
+}
+
+}*/
